@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>City Pharmacy-2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #00796b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #004d40;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background: #00796b;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    .medicines ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .medicines li {
+      background: white;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>City Pharmacy-2</h1>
+    <p>Your trusted medicine partner in Rajshahi</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#medicines">Medicines</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to City Pharmacy-2</h2>
+    <p>We provide authentic and affordable medicines with proper guidance.</p>
+  </section>
+
+  <section id="medicines" class="medicines">
+    <h2>Popular Medicines</h2>
+    <ul>
+      <li>Napa Extra</li>
+      <li>Azithromycin 500mg</li>
+      <li>Fexo 120mg</li>
+      <li>Omeprazole 20mg</li>
+      <li>ORS</li>
+    </ul>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>City Pharmacy-2 is a well-known pharmacy located in Rajshahi. We are committed to delivering quality medicine and service to our customers since our inception.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> 01XXXXXXXXX</p>
+    <p><strong>Address:</strong> Rajshahi, Bangladesh</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 City Pharmacy-2. All rights reserved.</p>
+  </footer>
+</body>
+</html>
